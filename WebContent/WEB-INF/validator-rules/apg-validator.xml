@@ -1,0 +1,40 @@
+<!DOCTYPE form-validation PUBLIC
+ "-//Apache Software Foundation
+//DTD Commons Validator Rules Configuration 1.3.0//EN"
+ "file:///C:/Users/Indr/workspaceJuno/SMPolicyGeneratorTest/WebContent/WEB-INF/dtd/validator_1_3_0.dtd">
+ 
+ <!-- "http://jakarta.apache.org/commons/dtds/validator_1_3_0.dtd" -->
+ <form-validation>
+     <formset>
+         <form name="policyForm">
+             <field property="domainName" depends="required">
+                 <msg name="required" key="policy.form.error.domain.req"/>
+             </field>
+             <field property="authScheme" depends="required">
+                 <msg name="required" key="policy.form.error.scheme.req"/>
+             </field>
+                          <field property="agent" depends="required">
+                 <msg name="required" key="policy.form.error.agent.req"/>
+             </field>
+                          <field property="realm" depends="required">
+                 <msg name="required" key="policy.form.error.realm.req"/>
+             </field>
+             <field property="realmName">
+                 
+             </field>
+         </form>
+         
+         <form name="importPolicyFormBean">
+             <field property="importFile" depends="required">
+                 <msg name="required" key="import.form.error.file.req"/>
+             </field>
+             <field property=""></field>
+             <field property="updatedObjName" depends="required" indexedListProperty="notFoundObjects">
+                 <msg name="required" key="import.form.error.objname.req"/>
+                 
+             </field>
+             
+         </form>
+     </formset>
+     
+ </form-validation>

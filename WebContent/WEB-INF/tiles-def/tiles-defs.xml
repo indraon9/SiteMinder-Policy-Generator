@@ -1,0 +1,25 @@
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 1.3//EN"
+"http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<tiles-definitions>
+
+	<definition name="mainTemplate" path="/pages/tiles/mainTemplate.jsp">
+		<put name="header" value="/pages/common/header.jsp" />
+		<put name="footer" value="/pages/common/footer.jsp" />
+	</definition>
+
+	<definition name="policyForm" extends="mainTemplate">
+		<put name="body" value="/pages/app/policyForm.jsp" />
+		<put name="title" value="Main | Auto Policy Generator" />
+	</definition>
+
+	<definition name="exportPolicyForm" extends="mainTemplate">
+		<put name="body" value="/pages/app/exportPolicyForm.jsp" />
+		<put name="title" value="Export | Auto Policy Generator" />
+	</definition>
+
+	<definition name="importPolicyForm" extends="mainTemplate">
+		<put name="body" value="/pages/app/importPolicyForm.jsp" />
+		<put name="title" value="Import | Auto Policy Generator" />
+	</definition>
+</tiles-definitions>

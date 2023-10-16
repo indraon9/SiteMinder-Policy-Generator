@@ -1,0 +1,46 @@
+#menu,#menu ul {
+       margin: 0 auto;
+       padding: 0;
+}
+ 
+#menu li {
+       float: left;
+       position: relative;
+       list-style: none;
+       background: rgb(154, 154, 229);
+       color: rgb(246,246,255);
+}
+ 
+#menu table {
+       float: left;
+       position: relative;
+       list-style: none;
+       border-style: solid;
+       border-width: 1px;
+       border-collapse: collapse;
+       border-radius: 15px;
+       /* background: rgb(0,128,255); */
+}
+ 
+#menu table td {
+       border-width: 1px;
+       border-style: solid;
+ 
+       background: rgb(102, 178, 255);
+}
+ 
+#menu>li:hover>table {
+       display: block;
+}
+ 
+#menu>li>table {
+       display: none;
+       position: absolute;
+}
+ 
+#menu td a {
+       white-space: nowrap;
+       font-family: arial;
+       font-size: 15px;
+}
+ 

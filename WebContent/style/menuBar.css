@@ -1,0 +1,60 @@
+#menuBar,#menuBar ul {
+	margin: 0 auto;
+	padding: 0;
+	background: #121b47;
+	background: -moz-linear-gradient(left, #121b47 0%, #162782 70%, #0163AE 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #121b47),
+		color-stop(70%, #162782), color-stop(100%, #0163AE));
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#121b47',
+		endColorstr='#0163AE', GradientType=1);
+}
+
+#menuBar li {
+	float: left;
+	position: relative;
+	list-style: none;
+	background: #7f7f7f;
+	color: rgb(246, 246, 255);
+	padding-left: 10px;
+	padding-right:10px;
+	margin-right: 2px;
+	border-radius:5px;
+	font-size: 20px;
+}
+
+#menuBar table {
+	float: left;
+	position: relative;
+	list-style: none;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	border-radius: 10px;
+	/* background: rgb(0,128,255); */
+}
+
+#menuBar table td {
+	border-width: 1px;
+	border-style: solid;
+	background: #0163AE;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom: 2px;
+}
+
+#menuBar>li:hover>table {
+	display: block;
+}
+
+#menuBar>li>table {
+	display: none;
+	position: absolute;
+}
+
+#menuBar td a {
+	white-space: nowrap;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	
+}

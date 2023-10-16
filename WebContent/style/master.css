@@ -1,0 +1,124 @@
+td {
+	vertical-align: top;
+	font-family: arial;
+}
+
+#mainTable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#mainTable td {
+	padding-bottom: 10px;
+}
+
+#msgTable {
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 0px;
+	border-color:#CED8F6;
+	border-style: ridge;
+	width: 100%;
+	font-family: arial;
+}
+
+#errorMsg {
+	font-size: 12px;
+	color: red;
+}
+
+#successMsg {
+	font-size: 12px;
+	color: green;
+}
+
+#policyFormTable {
+	border: 0px;
+	border-style: solid;
+	border-style: ridge;
+	border-color: #CED8F6;
+	width:100%;
+}
+
+#domainTable {
+	border: 2px;
+	width: 100%;
+	border-style: groove;
+	border-color:#CED8F6;
+}
+
+#realmTable {
+	border: 2px;
+	border-style: groove;
+	border-color:#CED8F6;
+	width: 100%;
+}
+
+#formTables {
+	border: 2px;
+	border-style: groove;
+	border-color:#CED8F6;
+	width: 100%;
+	white-space: nowrap;
+}
+
+#formElements {
+	padding: 0px;
+	margin: 0px;
+}
+
+input {
+	vertical-align: top;
+}
+
+/* font {
+	font-family: arial;
+	font-size: medium;
+} */
+#subHeading {
+	font-size: larger;
+	padding-bottom: 30px;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+}
+
+#apgHeadLine {
+	/* 	background-color: #00004C;*/
+	margin-top: 0px;
+	padding: 0px;
+	font-family: arial;
+	color: #E6E6E6;
+	background: #121b47;
+	background: -moz-linear-gradient(left, #121b47 0%, #162782 70%, #0163AE 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #121b47),
+		color-stop(70%, #162782), color-stop(100%, #0163AE));
+	filter: progid:DXImageTransform.Microsoft.gradient(     startColorstr='#121b47',
+		endColorstr='#0163AE', GradientType=1);
+}
+
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	overflow: auto;
+}
+
+#footerTable {
+	border-bottom: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	border-color:#CED8F6;
+	border-style: ridge;
+	margin-left: auto; 
+	margin-right : auto;
+	font-family: arial;
+}
